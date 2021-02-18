@@ -1,10 +1,25 @@
 const express = require('express')
+const articleRouter = require('./routes/articles')
 const app = express()
 
 app.set('view engine', 'ejs')
 
+app.use('/articles', articleRouter)
+
 app.get('/', (req, res) => {
-  res.render('index') //it looks in the views folder
+  const articles = [
+    {
+      title: 'Test Article',
+      createdAt: new Date(),
+      description: 'Test description',
+    },
+    {
+      title: 'Test Article 2',
+      createdAt: new Date(),
+      description: 'Test description 2',
+    },
+  ]
+  res.render('articles/index', { articles: articles }) //it looks in the views folder
 })
 
 app.listen(5000)
