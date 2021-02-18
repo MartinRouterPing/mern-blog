@@ -1,0 +1,13 @@
+Passaggi per la creazione del blog:
+
+A) Init [0 - 2 mins]
+    1) initial setup
+    2) dependencies
+    3) devStart script
+
+B) Server setup [3:00 - ?]
+    1) declare express app
+    2) set listener with app.get
+    3) set view engine (ejs)
+    [5:22]
+3)
