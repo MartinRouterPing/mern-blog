@@ -9,9 +9,12 @@ B) Server setup [3:00 - 5:22] (3 minutes)
     1) declare express app
     2) set listener with app.get
     3) set view engine (ejs)
-    
-    4) 
-C) rotues setup
+C) rotues setup [6:00 - 24:00]
     1) article object passed to index
     2) index article render loop
     3) create /new route (16:30)
+    4) article schema
+    5) 28 post new article
+D) show data
+37 show article
+39 30 use real data 
