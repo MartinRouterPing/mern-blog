@@ -18,3 +18,5 @@ C) rotues setup [6:00 - 24:00]
 D) show data
 37 show article
 39 30 use real data 
+E) 41:30 markdown and url title
+47 40 delete router
